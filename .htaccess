@@ -1,0 +1,5 @@
+AddType application/json .json
+<Files "manifest.json">
+    Header set Content-Type "application/json"
+    Header set Access-Control-Allow-Origin "*"
+</Files>
